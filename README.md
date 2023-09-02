@@ -1,2 +1,28 @@
-# Video-License-Plate-Recognition
-A video license plate recognition based on pytorch
+<div>
+    <h1> Video License Plate Recognition 
+</div>
+
+<table>
+  <tr>
+    <td><img src="https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/demo%20video%201.gif" alt="Image 1" width="470"></td>
+    <td><img src="https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/demo%20video%202.gif" alt="Image 2" width="470"></td>
+  </tr>
+</table>
+
+> The project aims to detect and recognize the license plate in the video using Pytorch and OpenCV, along with some other packages developed by distinguished developers
+> The markdown file contains thorough description of the project
+
+## The Whole Process of Detection
+<p align = "center">
+    <img src = "https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/flowchart.jpg" width = 600 height = 250>
+</p>
+
+## Locate the Cars
+To find the location of the cars from video, I made use of existing packages called [cvlib](https://github.com/arunponnusamy/cvlib), which was developed using [YOLO](https://github.com/AlexeyAB/darknet)
+
+## Find Potential License Plate from Cars
+After cropping the region of cars found by cvlib, I have to find the location of license plate. To do so, I perform some image processing techniques such as Blurring, Thresholding, Morphology etc. From here, we would have several images that might be license plate. In fact, these images could be sent to number detection directly. However, it's time-consuming as most of the images do not contain license plate. So I take an additionl step to predict whether the cropped images are license plates or not.
+
+
+
+

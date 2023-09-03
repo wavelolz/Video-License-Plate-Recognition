@@ -40,6 +40,31 @@ Here, to predict whether the images are license plate or not, I made use of conv
 ## Recognize numbers on captured license plates
 Eventually, I made use of [EasyOCR](https://github.com/JaidedAI/EasyOCR) to recognize the numbers and alphapets on the license plates
 
+## Structure of repo
+
+```
++---Main
+|       main.py
+|       model.py
+|
++---Model
+|       datasets.py
+|       patchify.py
+|       train.py
+|
+\---Video
+        003.mp4
+        006.mp4
+```
+- Main
+    - main.py: contain the main function and any other functions of the project
+    - model.py: define the structure of CNN model
+- Model
+    - datasets.py: used to create data loader from images
+    - patchify.py: used to create non-license plate training datasets
+    - train.py: used to train the structure of CNN model
+
+
 
 
 

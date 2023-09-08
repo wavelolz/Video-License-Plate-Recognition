@@ -63,7 +63,15 @@ Eventually, I made use of [EasyOCR](https://github.com/JaidedAI/EasyOCR) to reco
     - datasets.py: used to create data loader from images
     - patchify.py: used to create non-license plate training datasets
     - train.py: used to train the structure of CNN model
+ ## Problem that needs to be solved
+ 1. Localization of license plate after detecting a car isn't accurate enough
+ 2. Recognition of numbers on the plate isn't accurate enough
 
+**Though there are lots of things which need improvements in this project, it's my first approach to pytorch and computer vision. If you find this project helpful for you to catch the first glimpse into the topics, plz click on star on the top right 😄**
+
+<div align = "center">
+<img src = "https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/capo.gif" width = 500>
+</div>
 
 
 

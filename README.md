@@ -67,11 +67,15 @@ Eventually, I made use of [EasyOCR](https://github.com/JaidedAI/EasyOCR) to reco
  1. Localization of license plate after detecting a car isn't accurate enough
  2. Recognition of numbers on the plate isn't accurate enough
 
-**Though there are lots of things which need improvements in this project, it's my first time to pytorch and computer vision. If you find this project helpful for you to catch the first glimpse on the topics, plz click on star on the top right 😄**
+**There are lots of things which need improvements in this project, if you find this project helpful for you to catch the first glimpse on the topics, plz click on star on the top right 😄**
 
 <div align = "center">
-<img src = "https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/capo.gif" width = 300>
+    <img src = "https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/capo.gif">
 </div>
+
+<p align = "center">
+    <i>source: <a href="https://www.instagram.com/bugcat_capoo/">Bugcat Capoo</a></i> 
+</p>
 
 
 

@@ -70,7 +70,7 @@ Eventually, I made use of [EasyOCR](https://github.com/JaidedAI/EasyOCR) to reco
 **Though there are lots of things which need improvements in this project, it's my first approach to pytorch and computer vision. If you find this project helpful for you to catch the first glimpse into the topics, plz click on star on the top right 😄**
 
 <div align = "center">
-<img src = "https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/capo.gif" width = 500>
+<img src = "https://github.com/wavelolz/Video-License-Plate-Recognition/blob/main/Picture/capo.gif" width = 300>
 </div>
 
 
